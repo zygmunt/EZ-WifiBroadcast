@@ -2,7 +2,7 @@
 // reads rssi from stdin and writes it to shared memory
 #include "lib.h"
 #include "wifibroadcast.h"
-
+#include <sys/stat.h>
 #include <time.h>
 #include <sys/resource.h>
 

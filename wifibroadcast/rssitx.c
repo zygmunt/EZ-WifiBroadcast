@@ -17,6 +17,7 @@
 #include <string.h>
 #include <pcap.h>
 #include <getopt.h>
+#include <sys/stat.h>
 #include "lib.h"
 
 char *ifname = NULL;

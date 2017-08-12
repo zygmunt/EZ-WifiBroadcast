@@ -12,7 +12,7 @@
 #include <endian.h>
 #include <fcntl.h>
 #include <sys/mman.h>
-
+#include <sys/stat.h>
 #include "lib.h"
 
 struct sockaddr_in si_other_rssi;

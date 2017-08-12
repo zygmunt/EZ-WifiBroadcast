@@ -19,6 +19,7 @@
 #include "radiotap.h"
 #include <time.h>
 #include <sys/resource.h>
+#include <sys/stat.h>
 
 
 // this is where we store a summary of the information from the radiotap header

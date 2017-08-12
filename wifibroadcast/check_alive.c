@@ -10,6 +10,7 @@
 #include <endian.h>
 #include <fcntl.h>
 #include <sys/mman.h>
+#include <sys/stat.h>
 #include "lib.h"
 
 wifibroadcast_rx_status_t *status_memory_open(void) {
