@@ -13,7 +13,7 @@ LIBDIR=$(PREFIX)/lib
 # LIBFLAGS=-L$(VC_LIBDIR) -lEGL -lGLESv2 -ljpeg
 
 LIB_SHAPES=-L$(SYSROOT)$(LIBDIR) -lshapes
-# LD_RPATH=-Wl,-rpath=$(LIBDIR)
+LD_RPATH=-Wl,-rpath=$(LIBDIR)
 
 PROGRAM=wbc_status
 
